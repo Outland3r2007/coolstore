@@ -89,5 +89,12 @@
 		"version": "1.2.1",
 		"icon": "https://raw.githubusercontent.com/mineek/Serotonin/main/artwork/serotonin-precomposed.png",
 		"get_link": "https://github.com/mineek/Serotonin/releases/download/1.2.1/Serotonin.tipa"
+	},
+	{
+		"id": "live.cclerc.geranium",
+		"title": "Geranium",
+		"version": "1.1",
+		"icon": "https://raw.githubusercontent.com/c22dev/Geranium/main/Geranium/Assets.xcassets/AppIcon.appiconset/geranium.png",
+		"get_link": "https://github.com/c22dev/Geranium/releases/download/1.1/Geranium.tipa"
 	}
 	]
