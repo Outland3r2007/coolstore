@@ -20,7 +20,10 @@ var app = new Framework7({
             }}, {
             path: "/devmode/", content: '<div class="page"><div class="navbar"><div class="navbar-bg"></div><div class="navbar-inner sliding"><div class="left"><a href="#" class="link back"><i class="icon icon-back"></i></a></div><div class="title">"Developer Mode required"</div></div></div><div class="page-content"><div class="block block-strong inset"><center><img loading="lazy" src="https://i.imgur.com/qLbsliJ.png" style="width:97%;border-radius:20px;"></center><strong>How to enable Developer Mode?</strong><br>To activate Developer mode, navigate to your device\'s settings, specifically within the "Privacy & Security" section. Once there, locate the option labeled "Developer Mode" and toggle the switch to enable it.</div><div class="list separated inset"><ul><li><a href="com.apple.Preferences://" class="item-link item-content external"><div class="item-media"><i class="f7-icons">gear</i></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Open Settings</div></li></a></ul></div>', options: {
                 transition: "f7-circle"
-							}}]}), mainView = app.views.create(".view-main"); function loadIconFromLocalStorage() {
+							}}]}), mainView = app.views.create(".view-main");function toggleDarkMode(){document.querySelector("html").classList.toggle("dark")}function applyDarkModeSetting(){const e=document.querySelector("html"),t=window.matchMedia("(prefers-color-scheme: dark)"),i=t=>{t.matches?e.classList.add("dark"):e.classList.remove("dark")};t.addListener(i),i(t)}
+							applyDarkModeSetting();
+							
+							function loadIconFromLocalStorage() {
     var e = localStorage.getItem("customicon"); e && updateIcon(e)}if (document.addEventListener("DOMContentLoaded", (function() {
         document.querySelectorAll(".ptr-content").forEach((function(e) {
             e.addEventListener("ptr:refresh", (function(e) {
@@ -104,3 +107,4 @@ function uninstall() {
 	
 	
 }
+

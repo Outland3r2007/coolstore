@@ -75,5 +75,19 @@
 		"version": "1.8",
 		"icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgWICjXqiYKnBEwFFkU1lyeIq4OEk520ayOw&usqp=CAU",
 		"get_link": "https://tigisoftware.com/download/AppsManager_1.8.4.ipa"
+	},
+	{
+		"id": "com.roothide.BootStrap",
+		"title": "Bootstrap",
+		"version": "1.2.1",
+		"icon": "https://i.imgur.com/io9cmGF.png",
+		"get_link": "https://github.com/roothide/Bootstrap/releases/download/1.2.1/Bootstrap.tipa"
+	},
+	{
+		"id": "pisshill.usprebooter",
+		"title": "Serotonin",
+		"version": "1.2.1",
+		"icon": "https://raw.githubusercontent.com/mineek/Serotonin/main/artwork/serotonin-precomposed.png",
+		"get_link": "https://github.com/mineek/Serotonin/releases/download/1.2.1/Serotonin.tipa"
 	}
 	]
