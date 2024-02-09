@@ -1,5 +1,12 @@
 [
 	{
+		"id": "com.fiore.trolldecrypt",
+		"title": "TrollDecrypt",
+		"version": "1.1",
+		"icon": "https://i.imgur.com/0IaRQqJ.jpg",
+		"get_link": "https://github.com/donato-fiore/TrollDecrypt/releases/download/v1.1/TrollDecrypt.tipa"
+	},
+	{
 		"id": "net.sourceloc.TrollTools",
 		"title": "TrollTools",
 		"version": "3.0",
