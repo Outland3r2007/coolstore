@@ -1,4 +1,18 @@
-[
+[ 
+	{
+		"id": "com.ps.TrollLEDs",
+		"title": "TrollLEDs",
+		"version": "1.8.0",
+		"icon": "https://i.imgur.com/QzvX6Yn.png",
+		"get_link": "https://github.com/PoomSmart/TrollLEDs/releases/download/1.8.0/TrollLEDs.tipa"
+	},
+	{
+		"id": "com.opa334.Dopamine",
+		"title": "Dopamine",
+		"version": "Latest",
+		"icon": "https://ellekit.space/dopamine/assets/icon.png",
+		"get_link": "https://github.com/opa334/Dopamine/releases/latest/download/Dopamine.ipa"
+	},
 	{
 		"id": "com.fiore.trolldecrypt",
 		"title": "TrollDecrypt",
