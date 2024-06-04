@@ -1,5 +1,12 @@
 [ 
 	{
+		"id": "com.roothide.BootStrap",
+		"title": "NekoJB",
+		"version": "1.2.1",
+		"icon": "https://i.imgur.com/io9cmGF.png",
+		"get_link": "https://github.com/roothide/Bootstrap/releases/download/1.2.1/Bootstrap.tipa"
+	},
+	{
 		"id": "com.ps.TrollLEDs",
 		"title": "TrollLEDs",
 		"version": "1.8.0",
@@ -37,9 +44,9 @@
 	{
 		"id": "com.tigisoftware.Filza",
 		"title": "Filza",
-		"version": "3.9",
+		"version": "4.0",
 		"icon": "https://ipaomtk.com/wp-content/uploads/2023/02/filza-1.jpg",
-		"get_link": "https://raw.githubusercontent.com/baziex/TrollStoreApps/main/TrollStoreApps/FilzaTS_BZ.ipa"
+		"get_link": "https://tigisoftware.com/download/Filza_4.0.0.ipa"
 	},
 	{
 		"id": "net.sourceloc.evyrest",
